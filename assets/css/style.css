@@ -2366,8 +2366,6 @@ ul li {
 /*====== Error page end here ======*/
 /*================*** Header Section Start Here     ***===================*/
 .header-section {
-  background: rgba(0, 22, 63, 0.3);
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
   z-index: 999;
 }
 .header-section.header-fixed {
@@ -2735,17 +2733,17 @@ ul li {
 /*================*** Header Section End Here     ***===================*/
 /*======== Banner css start here  =========*/
 .banner-section {
-  background: url(../images/banner/bg.jpg);
+  background: url(../img/b9-ov.png);
   background-size: cover;
 }
 .banner-section .banner-wrapper {
-  padding-top: 150px;
-  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 @media (min-width: 992px) {
   .banner-section .banner-wrapper {
-    padding-top: 250px;
-    padding-bottom: 85px;
+    padding-top: 130px;
+    padding-bottom: 5px;
   }
 }
 @media (min-width: 992px) {
@@ -2768,7 +2766,7 @@ ul li {
   height: auto;
 }
 .banner-section .banner-wrapper .banner-content .countdown .clock-item .count-number {
-  background: #df01ae;
+  background: linear-gradient(#2122268d,#ff883388);
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -2781,10 +2779,10 @@ ul li {
   border-radius: 4px 4px 0 0;
 }
 .banner-section .banner-wrapper .banner-content .countdown .clock-item .count-text {
-  background: #fff;
+  background: #212226;
   font-family: "Arvo", serif;
   font-size: 18px;
-  color: #00163f !important;
+  color: #ffffff !important;
   padding: 0.5rem 0.7rem;
   margin-bottom: 0;
   display: inline-block;
@@ -2794,7 +2792,8 @@ ul li {
   border-radius: 0 0 4px 4px;
 }
 .banner-section .banner-wrapper .banner-content h1 {
-  text-shadow: 2px 2px 0 #df01ae;
+  color: #ff8833;
+  text-shadow: 2px 2px 0 #212226;
   font-style: italic;
   line-height: 1.286;
   margin-bottom: 18px;
