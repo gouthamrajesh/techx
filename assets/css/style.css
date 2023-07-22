@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*! @@@@@@@@@@@@@@@@@@@@@@
-Template Name: Kagont
-Template URI: https://themeforest.net/user/labartisan
-Author: LabArtisan
-Author URI: https://themeforest.net/user/labartisan
-Description: Description
-Version: 1.0.0
-Text Domain: Kagont
-Tags: bootstrap, program, event, event schedule, arrangment, event site, official event,corporate event,music concert.
-
-@@@@@@@@@@@@@@@@@@@@@@ */
 /* @@@@@@@@@@@@@@@@@@@@@@
 >>> TABLE OF CONTENTS START:
 
@@ -37,6 +26,12 @@ footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-c
 .shop-product-wrap .product-list-item .product-thumb .product-action-link, .shop-single .review .review-content .review-showing .client-review .review-form form .rating ul, .shop-single .review .review-content .review-showing .client-review .review-form form .rating, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta, .shop-single .review .review-nav, .shop-single .product-details .post-content form, .shop-cart .section-wrapper .cart-bottom .shiping-box .cart-overview ul li, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box, .shop-cart .section-wrapper .cart-top table tbody tr td.product-item, .comment-respond .add-comment .comment-form, .comments .comment-list .comment .com-content .com-title, .authors, .blog-single .section-wrapper .post-item-2 .post-inner .post-content .tags-section .tags, .blog-single .section-wrapper .post-item-2 .post-inner .post-content .tags-section, .about-section .section-wrapper .about-btn-grp, .banner-section .banner-wrapper .banner-content .event-sponsored, .banner-section .banner-wrapper .banner-content .countdown, .menu, .header-wrapper .menu-area .cart-ticket .cart-icon .cart-content .cart-list .cart-item .cart-inner .cart-details p, .header-wrapper .menu-area .cart-ticket .cart-icon .cart-content .cart-list .cart-item .cart-inner, .header-wrapper .menu-area .cart-ticket, .header-wrapper .menu-area, .header-wrapper, .account-form .form-group .checkgroup, .tags-social .social, .tags-social .tags, .paginations ul li a, .share, .tags, .tags-area, .single-quote, .coming-wrapper .event-count .rounded-circle, .widget.widget-tags ul.widget-wrapper, .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat, .pricing-item .pricing-inner .pricing-content .get-ticket a ul, .speaker-item-2 .speaker-inner, .speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons, .speaker-item .speaker-inner, .page-header .page-header-content-area ul {
   display: flex;
   flex-wrap: wrap;
+}
+
+/*Adding new Font - SpaceX*/
+@font-face {
+  font-family: spacex;
+  src: url(../fonts/SpaceX.ttf);
 }
 
 .scholar-single-section .section-wrapper .section-inner, .gallery-section .grid .grid-item .grid-inner, .shop-product-wrap .product-item .product-thumb,
@@ -1717,8 +1712,8 @@ ul li {
   display: inline-block;
   line-height: 56px;
   padding: 0 30px;
-  background: #fff;
-  color: #df01ae;
+  background: #212226;
+  color: #FF8933;
   font-family: "Arvo", serif;
   font-style: italic;
   font-size: 14px;
@@ -1732,10 +1727,12 @@ ul li {
   box-shadow: 4px 4px 0 0 currentColor;
 }
 .lab-btn span {
-  color: #df01ae;
+  color: #FF8933;
 }
 .lab-btn:hover {
   box-shadow: none;
+  background: #212226;
+  color: #FF8933;
 }
 
 .text-btn {
@@ -2737,13 +2734,13 @@ ul li {
   background-size: cover;
 }
 .banner-section .banner-wrapper {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 @media (min-width: 992px) {
   .banner-section .banner-wrapper {
-    padding-top: 130px;
-    padding-bottom: 5px;
+    padding-top: 150px;
+    padding-bottom: 60px;
   }
 }
 @media (min-width: 992px) {
@@ -2843,6 +2840,10 @@ ul li {
 
 /*======== Banner css end here  =========*/
 /*About section css start here*/
+.about-section
+{
+  background: radial-gradient(#212226, #ff8933);
+}
 .about-section .section-header h2::after {
   top: -25px;
 }
