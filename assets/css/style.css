@@ -545,6 +545,11 @@ ul li {
   background: linear-gradient(#FF8933,#212226);
 }
 
+.bg-image-non4
+{
+  background: linear-gradient(#212226,#FF8933);
+}
+
 /* @@@@@@@@@@@@@  Page Header Section Start Here  @@@@@@@@@@@@@@ */
 .page-header {
   padding-top: 210px;
@@ -943,6 +948,7 @@ ul li {
 .pricing-item .pricing-inner .pricing-header p {
   font-family: "Arvo", serif;
   font-size: 16px;
+  color: #FF8933;
 }
 .pricing-item .pricing-inner .pricing-content .facilites {
   padding: 30px 25px;
@@ -955,13 +961,13 @@ ul li {
   padding: 6px 0;
 }
 .pricing-item .pricing-inner .pricing-content .facilites .facility-item span i {
-  color: #df01ae;
+  color: #ffffffe7;
   font-size: 20px;
 }
 .pricing-item .pricing-inner .pricing-content .facilites .facility-item span i:after {
   height: 90%;
   width: 2px;
-  background: #df01ae;
+  background: #ffffff;
   bottom: -18px;
   left: 50%;
   transform: translateX(-50%);
@@ -991,20 +997,21 @@ ul li {
   align-items: flex-end;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat h4 {
-  color: #df01ae !important;
+  color: #ffffff !important;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat p {
-  color: #df01ae !important;
+  color: #ffffff !important;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  color: #555555;
+  color: #212226;
   transition: 0.2s all linear;
   z-index: 9;
 }
+
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon:after {
   width: 1px;
   height: 80px;
@@ -1709,7 +1716,7 @@ ul li {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: #df01ae;
+  background: #ff8933;
   text-align: center;
   border-radius: 50%;
   font-size: 24px;
@@ -1717,11 +1724,11 @@ ul li {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border: 2px solid #00102e;
+  border: 2px solid #ff8933;
   z-index: 1;
 }
 .scrollToTop i {
-  color: #fff;
+  color: #212226;
   z-index: 1;
 }
 
@@ -4933,7 +4940,7 @@ ul li {
 
 /*Footer section start here*/
 footer {
-  background-color: #00102e;
+  background-color: #212226;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -5060,7 +5067,7 @@ footer .footer-middle .footer-middle-item-wrapper .footer-middle-item-3 .fm-item
   margin-left: 5px;
 }
 footer .footer-bottom {
-  background: #00163f;
+  background: linear-gradient(#212226,#ff8933);
 }
 footer .footer-bottom .footer-bottom-content {
   padding: 38px 0;
@@ -5069,10 +5076,7 @@ footer .footer-bottom .footer-bottom-content p {
   margin: 0;
 }
 footer .footer-bottom .footer-bottom-content p a {
-  color: #df01ae;
+  color: #212226;
   font-weight: 700;
 }
 
-/*Footer section End here*/
-
-/*# sourceMappingURL=style.css.map */
