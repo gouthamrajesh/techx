@@ -495,7 +495,6 @@ ul li {
 .section-header h2:after {
   width: 210px;
   height: 210px;
-  background: url(../images/shape/header.png);
   background-size: contain;
   background-repeat: no-repeat;
   top: -85px;
@@ -512,6 +511,38 @@ ul li {
 .bg-image {
   background: url("../images/event/01.png");
   background-size: cover;
+}
+
+.bg-image2 {
+  position: relative; /* Ensure the container is positioned */
+  background-image: url("../img/b1.png");
+  background-size: cover;
+}
+
+.bg-image2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#FF8933, #212226);
+  opacity: 0.7; /* Adjust the opacity as per your preference */
+}
+
+.bg-image-non
+{
+  background: linear-gradient(#FF8933,#212226);
+}
+
+.bg-image-non2
+{
+  background: linear-gradient(#212226,#FF8933);
+}
+
+.bg-image-non3
+{
+  background: linear-gradient(#FF8933,#212226);
 }
 
 /* @@@@@@@@@@@@@  Page Header Section Start Here  @@@@@@@@@@@@@@ */
@@ -2846,6 +2877,10 @@ ul li {
 
 /*Sponsor sectin end here*/
 /*======== Gift Sectin start here =========*/
+.event-gift-section
+{
+  background-color: #00102e;
+}
 .event-gift-section .image-part:after {
   background: url(../images/shape/01.png);
   width: 200px;
@@ -2875,7 +2910,7 @@ ul li {
   text-align: left;
 }
 .event-gift-section .gift-content .gift-list .gift-item span {
-  color: #df01ae;
+  color: #212226;
 }
 @media (max-width: 991px) {
   .event-gift-section .gift-content .register-button {
