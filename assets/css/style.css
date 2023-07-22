@@ -514,87 +514,6 @@ ul li {
   background-size: cover;
 }
 
-@media (min-width: 992px) {
-  .shape-b {
-    position: relative;
-  }
-  .shape-b * {
-    z-index: 99;
-  }
-  .shape-b:before {
-    position: absolute;
-    content: "";
-    background: url("../images/shape/01.png");
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    top: 5%;
-    left: -20%;
-  }
-  .shape-b:after {
-    position: absolute;
-    content: "";
-    background: url("../images/shape/03.png");
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    bottom: 10%;
-    right: -20%;
-  }
-
-  .shape-a {
-    position: relative;
-  }
-  .shape-a * {
-    z-index: 99;
-  }
-  .shape-a:before {
-    position: absolute;
-    content: "";
-    background: url("../images/shape/01.png");
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    top: 40%;
-  }
-  .shape-a:after {
-    position: absolute;
-    content: "";
-    background: url(../images/shape/02.png);
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    top: 70%;
-    left: 40%;
-  }
-
-  .shape-c {
-    position: relative;
-  }
-  .shape-c * {
-    z-index: 99;
-  }
-  .shape-c:before {
-    position: absolute;
-    content: "";
-    background: url("../images/shape/01.png");
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    top: -15%;
-    left: -15%;
-  }
-  .shape-c:after {
-    position: absolute;
-    content: "";
-    background: url(../images/shape/03.png);
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    top: 40%;
-    right: -10%;
-  }
-}
 /* @@@@@@@@@@@@@  Page Header Section Start Here  @@@@@@@@@@@@@@ */
 .page-header {
   padding-top: 210px;
@@ -626,7 +545,6 @@ ul li {
 .page-header .page-header-content-area h4:after {
   width: 210px;
   height: 210px;
-  background: url(../images/shape/header.png);
   background-size: contain;
   background-repeat: no-repeat;
   top: -85px;
@@ -2377,7 +2295,7 @@ ul li {
   z-index: 999;
 }
 .header-section.header-fixed .header-bottom {
-  background: #00163f;
+  background: #21222658;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -2842,13 +2760,13 @@ ul li {
 /*About section css start here*/
 .about-section
 {
-  background: radial-gradient(#212226, #ff8933);
+  background: linear-gradient(#212226, #ff8933);
 }
 .about-section .section-header h2::after {
   top: -25px;
 }
 .about-section .about-image {
-  border: 10px solid rgba(223, 1, 174, 0.3);
+  border: 10px solid #212226;
   border-radius: 5px;
   margin-bottom: 55px;
 }
@@ -2896,11 +2814,11 @@ ul li {
   row-gap: 20px;
 }
 .about-section .section-wrapper .about-btn-grp .lab-btn:first-child {
-  background: #df01ae;
-  color: #fff;
+  background: #FF8933;
+  color: #212226;
 }
 .about-section .section-wrapper .about-btn-grp .lab-btn:first-child span {
-  color: #fff;
+  color: #212226;
 }
 
 /*About section css end here*/
